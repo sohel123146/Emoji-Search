@@ -18,7 +18,9 @@ const App = () => {
         <h1> Emoji Search</h1>
         <input size="30" type="text" value={search} onChange={(e) => setSearch(e.target.value)} />
         </center>
-        {(!data.length > 0)?'NO Emoji Found':<EmojiItem data={data}/>}
+        <div className='emojiitem'>
+          {(!data.length > 0)?'NO Emoji Found':<EmojiItem data={data}/>}
+        </div>
     </div>
   )
 }

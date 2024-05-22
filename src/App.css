@@ -1,13 +1,26 @@
+html body{
+  background: linear-gradient(225deg, hsla(331, 78%, 69%, 1) 0%, hsla(312, 50%, 63%, 1) 51%, hsla(273, 52%, 64%, 1) 78%, hsla(238, 82%, 70%, 1) 100%);
+}
+
 input {
     padding: 10px;
     outline: none;
     width: 300px;
     border-radius: 10px;
   }
-  
-  .btn{
-    padding: 10px;
-    width: 100px;
-    border-radius: 10px;
+
+  .card{
+    margin:20px;
+    width:400px;
+    background-color: #0fcbf6;
+    border-radius: 20px;
+    box-shadow: -1px 1px 10px 0px rgba(12,36,6,1);
+  }
+
+  .emojiitem{
+    margin:20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
   }
   
